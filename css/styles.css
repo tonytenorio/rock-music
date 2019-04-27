@@ -64,11 +64,6 @@ h6{
 	border-color:var(--blanco) !important;
 }
 
-.container-sinpadding{
-	padding-left: 0;
-	padding-right: 0;
-}
-
 .titulos{
 	color: var(--amarillo);
 	font-size: 2rem;
@@ -91,13 +86,6 @@ h6{
 
 /*------------------------------
 2. MENU PRINCIPAL
---------------------------------*/
-#header {
-    min-height: 100vh;
-}
-
-/*------------------------------
-3. MENU PRINCIPAL
 --------------------------------*/
 .navbar-principal{
 	text-align: center;
@@ -155,7 +143,7 @@ h6{
 }
 
 /*------------------------------
-4. CAROUSEL SECTION
+3. CAROUSEL SECTION
 --------------------------------*/
 .carousel-item:after{
 	position: absolute;
@@ -179,6 +167,23 @@ h6{
 
 .carousel-caption--descripcion{
 	font-size: 1.3rem;
+}
+
+/*------------------------------
+4. BIO SECTION
+--------------------------------*/
+.container-sinpadding{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.no-gutters .informacionDj{
+	padding: 3rem 2rem;
+}
+
+.informacionDj__header{
+	border-bottom: 5px solid var(--blanco);
+	padding-bottom: 1rem;
 }
 
 
@@ -212,8 +217,12 @@ X. MEDIA QUERIES
         justify-content: flex-end;
     }
 
-    .titulosSection{
+    .titulos{
 		font-size: 3rem;
+	}
+
+	.no-gutters .informacionDj{
+		padding: 3rem 4rem;
 	}
 
 	.no-gutters .informacionDj{
