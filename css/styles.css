@@ -186,38 +186,39 @@ h6{
 	padding-bottom: 1rem;
 }
 
+/*------------------------------
+5. FOOTER
+--------------------------------*/
+
 
 /*------------------------------
 X. MEDIA QUERIES
 --------------------------------*/
 @media screen and (min-width:992px){
-
 	.navbar-principal .nav-link{
 		border-bottom: 0;
-    }
+  }
     
-    .navbar-expand-lg .navbar-nav .nav-link{
+  .navbar-expand-lg .navbar-nav .nav-link{
 		padding-left: 1rem;
 		padding-right: 1rem;
-    }
+  }
     
-    .carousel-caption{
-        bottom: 60px;
-    }
+  .carousel-caption{
+     bottom: 60px;
+  }
 }
 
-
 @media screen and (min-width: 768px){
+  .navbar-brand img {
+     width: unset;
+  }
 
-    .navbar-brand img {
-        width: unset;
-    }
+  .redes-sociales{
+      justify-content: flex-end;
+  }
 
-    .redes-sociales{
-        justify-content: flex-end;
-    }
-
-    .titulos{
+  .titulos{
 		font-size: 3rem;
 	}
 
@@ -225,8 +226,12 @@ X. MEDIA QUERIES
 		padding: 3rem 4rem;
 	}
 
-	.no-gutters .informacionDj{
-		padding: 3rem 4rem;
+}
+
+@media screen and (max-width: 320px){
+	footer p {
+		font-size: 0.9rem;
 	}
+
 }
 
