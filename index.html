@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Rock Concert</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#menu-principal" data-offset="50">
 
-    <header id="header">
+    <header id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-light py-0" id="menu-principal">
             <div class="container">
                 <a class="navbar-brand" href="#inicio">
@@ -201,97 +201,108 @@
             </form>
         </article>
     </section>
-
-    <section id="gallery" class="bg-gris--light pt-5">
-        <div class="container-fluid p-5">
+    
+    <section id="gallery" class="bg-gris--light py-5">
+        <div class="container-fluid pt-5 px-md-5">
             <h3 class="titulos text-primary text-center">Galería de imágenes</h3>
-            <article class="row no-gutters mt-5">
-                <div class="col-sm-4 col-md-3 col-lg-2">
+            <div class="row">
+                <div class="col-12 pt-3">
+                    <ul class="list-inline text-center text-uppercase font-weight-bold my-4">
+                        <li class="list-inline-item gallery-list-item active-item" data-filter="all">All<span class="mx-md-5 mx-3 text-muted">/</span></li>
+                        <li class="list-inline-item gallery-list-item" data-filter="new">New<span class="mx-md-5 mx-3 text-muted">/</span></li>
+                        <li class="list-inline-item gallery-list-item" data-filter="free">Free<span class="mx-md-5 mx-3 text-muted">/</span></li>
+                        <li class="list-inline-item gallery-list-item" data-filter="pro">Pro</li>
+                    </ul>
+                </div>
+            </div>
+                
+            <article class="row no-gutters mt-3">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter new">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-1.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter free">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-2.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter pro">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-3.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter new">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-4.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter free">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-5.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter pro">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-6.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter new">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-6.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter free">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-5.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter pro">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-4.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter new">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-3.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter free">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-2.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter pro">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-1.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter new">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-1.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter free">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-2.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter pro">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-3.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter new">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-4.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter free">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-5.jpg" alt="Card image cap">
                     </div>
                 </div>
-                <div class="col-sm-4 col-md-3 col-lg-2">
+                <div class="col-sm-4 col-md-3 col-lg-2 filter pro">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="img/galeria-6.jpg" alt="Card image cap">
                     </div>
@@ -389,7 +400,6 @@
     <footer class="bg-gris--light d-flex justify-content-center align-items-center py-4">
         <p class="font-weight-bold">Copyright &copy;<span class="primary">Music</span> <span class="primary" id="date"></span>. All Rights Reserved.</p>
    </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
