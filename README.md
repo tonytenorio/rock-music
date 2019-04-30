@@ -14,6 +14,7 @@ Libraries used:
 # Cool stuff :
 
 - Image Gallery Effects
+- Carousel
 - Smooth Scroll
 - Scroll Spy
 
